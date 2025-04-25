@@ -199,39 +199,39 @@
     <string name="setting_native_mode_content">Native Mode uses the built-in Quick Tap feature on Pixels to run Tap, Tap. This has the benefit of having almost as low battery consumption as Low Power Mode, but does have two downsides:\n• <b>Tap, Tap will not work when the screen is off</b>\n• <b>Triple Tap may be less reliable</b>\n\nTo enable Native Mode, you must enable Quick Tap in the system settings, and set the action to launch Tap, Tap.</string>
 
             <!-- Settings > Settings > Model Picker -->
-    <string name="settings_model_picker_loading">Loading…</string>
-    <string name="settings_model_picker_tab_newest">Newest</string>
-    <string name="settings_model_picker_tab_legacy">Legacy</string>
+    <string name="settings_model_picker_loading">Ładowanie…</string>
+    <string name="settings_model_picker_tab_newest">Najnowsze</string>
+    <string name="settings_model_picker_tab_legacy">Stare</string>
     <string name="settings_model_picker_tab_oem">OEM</string>
-    <string name="settings_model_picker_device_size">Height: %1smm (%1sin)</string>
-    <string name="settings_model_picker_recommended">%1s (Recommended)</string>
+    <string name="settings_model_picker_device_size">Wysokość: %1smm (%1sin)</string>
+    <string name="settings_model_picker_recommended">%1s (Rekomendowane)</string>
     <string name="settings_model_picker_header_newest">Newest models are from Android 12 and are more accurate than the legacy models.\n\n<b>Note:</b> Sometimes the closest size is not the best for your device, you may need to try all the sizes to find the one that is best for you.</string>
     <string name="settings_model_picker_header_legacy">Legacy models are from Android 11 and are less accurate than the newer models.\n\n<b>Note:</b> Sometimes the closest size is not the best for your device, you may need to try all the sizes to find the one that is best for you.</string>
     <string name="settings_model_picker_header_oem">OEM models are from device manufacturer implementations of Quick Tap\n\n<b>Note:</b> There are no size recommendations for these models</string>
 
-            <!-- New (Android 12) models -->
-    <string name="tap_model_redfin_name">144.7mm [5.7in] (Small)</string>
-    <string name="tap_model_redfin_desc">Created for the Pixel 5</string>
-    <string name="tap_model_flame_name">147.1mm [5.8in] (Small)</string>
-    <string name="tap_model_flame_desc">Created for the Pixel 4</string>
-    <string name="tap_model_bramble_name">153.9mm [6.1in] (Medium)</string>
-    <string name="tap_model_bramble_desc">Created for the Pixel 4a 5G</string>
-    <string name="tap_model_crosshatch_name">158mm [6.2in] (Large)</string>
-    <string name="tap_model_crosshatch_desc">Created for the Pixel 3 XL</string>
-    <string name="tap_model_coral_name">160.4mm [6.3in] (Large)</string>
-    <string name="tap_model_coral_desc">Created for the Pixel 4 XL</string>
+    <!-- New (Android 12) models -->
+    <string name="tap_model_redfin_name">144.7mm [5.7in] (Mały)</string>
+    <string name="tap_model_redfin_desc">Utworzono dla Pixel 5</string>
+    <string name="tap_model_flame_name">147.1mm [5.8in] (Mały)</string>
+    <string name="tap_model_flame_desc">Utworzono dla Pixel 4</string>
+    <string name="tap_model_bramble_name">153.9mm [6.1in] (Średni)</string>
+    <string name="tap_model_bramble_desc">Utworzono dla Pixel 4a 5G</string>
+    <string name="tap_model_crosshatch_name">158mm [6.2in] (Duży)</string>
+    <string name="tap_model_crosshatch_desc">Utworzono dla Pixel 3 XL</string>
+    <string name="tap_model_coral_name">160.4mm [6.3in] (Duży)</string>
+    <string name="tap_model_coral_desc">Utworzono dla Pixel 4 XL</string>
 
-            <!-- Old (Android 11) models -->
-    <string name="tap_model_pixel4_name">147.1mm [5.8in] (Small)</string>
-    <string name="tap_model_pixel4_desc">Created for the Pixel 4</string>
-    <string name="tap_model_pixel3xl_name">158mm [6.2in] (Medium)</string>
-    <string name="tap_model_pixel3xl_desc">Created for the Pixel 3 XL</string>
-    <string name="tap_model_pixel4xl_name">160mm [6.3in] (Large)</string>
-    <string name="tap_model_pixel4xl_desc">Created for the Pixel 4 XL</string>
+    <!-- Old (Android 11) models -->
+    <string name="tap_model_pixel4_name">147.1mm [5.8in] (Mały)</string>
+    <string name="tap_model_pixel4_desc">Utworzone dla Pixel 4</string>
+    <string name="tap_model_pixel3xl_name">158mm [6.2in] (Średni)</string>
+    <string name="tap_model_pixel3xl_desc">Utworzone dla Pixel 3 XL</string>
+    <string name="tap_model_pixel4xl_name">160mm [6.3in] (Duży)</string>
+    <string name="tap_model_pixel4xl_desc">Utworzone dla Pixel 4 XL</string>
 
-            <!-- Samsung models -->
+    <!-- Samsung models -->
     <string name="tap_model_samsung_name">Samsung</string>
-    <string name="tap_model_samsung_desc">Created for Samsung RegiStar</string>
+    <string name="tap_model_samsung_desc">Utworzone dla Samsung</string>
 
             <!-- Settings > Settings > Advanced -->
     <string name="setting_advanced">Advanced</string>
@@ -571,40 +571,40 @@
     <string name="tap_update_notification_content">An update is available for Tap, Tap (%1s to %1s)</string>
 
             <!-- Shared Pickers, for Gates & Actions -->
-    <string name="settings_shared_app_shortcuts_selector_loading">Loading App Shortcuts…</string>
-    <string name="settings_shared_shortcuts_selector_loading">Loading Shortcuts…</string>
-    <string name="settings_shared_shortcuts_selector_error">Error getting App Shortcuts, please try again. If the problem persists, restart Shizuku using ADB.</string>
+    <string name="settings_shared_app_shortcuts_selector_loading">Ładowanie Skrótów Aplikacji…</string>
+    <string name="settings_shared_shortcuts_selector_loading">Ładowanie Skrótów…</string>
+    <string name="settings_shared_shortcuts_selector_error">Nie mogę załadować skrótów aplikacji, spróbuj ponownie. Jeżeli problem się powtarza, zrestartuj Shizuku używając ADB.</string>
     <string name="settings_shared_shizuku_permission_flow_toolbar_title">Shizuku / Sui</string>
-    <string name="settings_shared_shizuku_permission_flow_title">Checking for Shizuku / Sui</string>
-    <string name="settings_shared_shizuku_permission_flow_content">This may take up to 10 seconds</string>
-    <string name="settings_shared_shizuku_permission_flow_error_title">Shizuku / Sui not found</string>
-    <string name="settings_shared_shizuku_permission_flow_error_content">Shizuku or Sui were not found on your device, you will need to install one of them to use this %s.\n\n<b>Note:</b> If you already have Shizuku or Sui, make sure it is running (Shizuku only), that you have not denied the permission, and retry.</string>
-    <string name="settings_shared_shizuku_permission_flow_error_content_action">action</string>
-    <string name="settings_shared_shizuku_permission_flow_error_content_gate">gate</string>
+    <string name="settings_shared_shizuku_permission_flow_title">Sprawdzanie dostępności Shizuku / Sui</string>
+    <string name="settings_shared_shizuku_permission_flow_content">Proces ten może zająć do 10 sekund</string>
+    <string name="settings_shared_shizuku_permission_flow_error_title">Nie znaleziono Shizuku / Sui</string>
+    <string name="settings_shared_shizuku_permission_flow_error_content">Shizuku lub Sui nie zostały odnalezione na Twoim urządzeniu. Musisz zainstalować jedną z tych aplikacji aby użyć %s.\n\n<b>Uwaga:</b> Jeżeli masz już Shizuku lub Sui, upewnij się że działają oraz, że nie odmówiłeś wymaganych uprawnień.</string>
+    <string name="settings_shared_shizuku_permission_flow_error_content_action">akcja</string>
+    <string name="settings_shared_shizuku_permission_flow_error_content_gate">brama</string>
     <string name="settings_shared_shizuku_permission_flow_error_card_shizuku_title">Shizuku</string>
     <string name="settings_shared_shizuku_permission_flow_error_card_shizuku_content">Shizuku is a non-root app that allows apps like Tap, Tap to run code with special permissions. It does this by running a command on ADB (Android Debug Bridge) Shell, once per reboot. On Android 11+ devices, this can be done without a computer, but on older versions you will need to connect to a computer once per reboot to restart Shizuku.</string>
-    <string name="settings_shared_shizuku_permission_flow_error_card_shizuku_button">Get Shizuku</string>
+    <string name="settings_shared_shizuku_permission_flow_error_card_shizuku_button">Pobierz Shizuku</string>
     <string name="settings_shared_shizuku_permission_flow_error_card_sui_content">Sui is a Magisk module that allows apps like Tap, Tap to run code as root. It uses the same framework as Shizuku, and therefore works with Shizuku apps, but does not require manual starting after reboots, this is done automatically.\n<b>If you are not sure what root or Magisk is, use Shizuku instead.</b></string>
     <string name="settings_shared_shizuku_permission_flow_error_card_sui_title">Sui</string>
-    <string name="settings_shared_shizuku_permission_flow_error_card_sui_button">Get Sui</string>
-    <string name="settings_shared_package_selector_loading">Loading Apps…</string>
-    <string name="settings_shared_package_selector_empty">No Apps Found</string>
-    <string name="settings_shared_snapchat_loading_title">Checking Availability…</string>
-    <string name="settings_shared_snapchat_loading_content">Please grant root access if requested</string>
-    <string name="settings_shared_snapchat_setup_root_title">Additional Setup Required</string>
+    <string name="settings_shared_shizuku_permission_flow_error_card_sui_button">Pobierz Sui</string>
+    <string name="settings_shared_package_selector_loading">Ładowanie Aplikacji…</string>
+    <string name="settings_shared_package_selector_empty">Nie odnaleziono Aplikacji</string>
+    <string name="settings_shared_snapchat_loading_title">Sprawdzanie dostępności…</string>
+    <string name="settings_shared_snapchat_loading_content">Przyznaj uprawnienia root jeżeli wymagane</string>
+    <string name="settings_shared_snapchat_setup_root_title">Wymagana dodatkowa konfiguracja</string>
     <string name="settings_shared_snapchat_setup_root_content">To enable Quick Tap to Snap on your device, please follow these steps:\n<b>You must be signed into Snapchat for this to work</b>\n1.) Disable your internet connection - both WiFi and mobile data (use Airplane Mode ideally). <b>Do not re-enable it until you have completed these steps.</b>\n2.) Select the option below to open Snapchat - you must use this button as it has to open with certain options to show the prompt.\n3.) Snapchat will open and prompt you to unlock to complete setting up - this is normal, simply OK the dialog.\n4.) A dialog will appear asking you to enable Quick Tap to Snap, enable it. <b>You will not see a system prompt to enable it, this is normal.</b>\n5.) Return to Tap, Tap by closing Snapchat to complete setup.</string>
-    <string name="settings_shared_snapchat_setup_root_button">Open Snapchat</string>
-    <string name="settings_shared_snapchat_setup_no_root_title">Additional Setup Required</string>
+    <string name="settings_shared_snapchat_setup_root_button">Otwórz Snapchat</string>
+    <string name="settings_shared_snapchat_setup_no_root_title">Wymagana dodatkowa konfiguracja</string>
     <string name="settings_shared_snapchat_setup_no_root_content">To setup Quick Tap to Snap, there are a few steps to follow. These steps require rebooting your phone and re-activating the system Quick Tap gesture temporarily (which will prevent access to Tap, Tap until the steps are finished), so they have been put on an external site to make them more accessible.</string>
-    <string name="settings_shared_snapchat_setup_no_root_button">Open Instructions</string>
-    <string name="settings_shared_snapchat_setup_incompatible_title">Incompatible</string>
+    <string name="settings_shared_snapchat_setup_no_root_button">Otwórz instrukcje</string>
+    <string name="settings_shared_snapchat_setup_incompatible_title">Niekompatybilne</string>
     <string name="settings_shared_snapchat_setup_incompatible_content">Sorry, Quick Tap to Snap requires root access to be enabled on your device.</string>
-    <string name="settings_shared_snapchat_setup_incompatible_button">Close</string>
-    <string name="settings_shared_snapchat_setup_error">Error getting availability, please try again</string>
-    <string name="settings_shared_snapchat_setup_error_network">Please disable WiFi and mobile data first</string>
+    <string name="settings_shared_snapchat_setup_incompatible_button">Zamknij</string>
+    <string name="settings_shared_snapchat_setup_error">Problem z dostępnością, spróbuj ponownie</string>
+    <string name="settings_shared_snapchat_setup_error_network">Najpierw wyłącz WiFi oraz dane mobilne</string>
     <string name="item_settings_shared_quick_settings_header_content">Due to system limitations, there are some restrictions:\n- Quick Settings tiles\' titles cannot be retrieved, so please refer to your notification shade to match against the order.\n- Only custom tiles can be clicked, not the stock ones such as Internet\n- On some devices, the tile must be on page 1 or 2 of your quick settings for the click to work.</string>
-    <string name="settings_shared_quick_settings_empty">No Quick Settings tiles found</string>
-    <string name="settings_shared_quick_settings_loading">Loading Quick Settings tiles…</string>
+    <string name="settings_shared_quick_settings_empty">Nie odnaleziono kafelka szybkich ustawień</string>
+    <string name="settings_shared_quick_settings_loading">Ładowanie kafelków szybkich ustawień…</string>
 
     <!-- No root bottom sheet -->
     <string name="bs_no_root_title">Brak uprawnień root</string>
