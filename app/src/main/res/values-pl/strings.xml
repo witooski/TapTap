@@ -234,11 +234,11 @@
     <string name="tap_model_samsung_desc">Utworzone dla Samsung</string>
 
             <!-- Settings > Settings > Advanced -->
-    <string name="setting_advanced">Advanced</string>
-    <string name="setting_advanced_desc">Advanced settings and tweaks to change performance and more</string>
-    <string name="setting_advanced_warning_desc">These settings are experimental and may not work on your device, or may cause Tap, Tap to stop working entirely.</string>
-    <string name="setting_advanced_restart_service">Auto-restart service</string>
-    <string name="setting_advanced_restart_service_desc">Attempt to automatically restart the Tap, Tap listener component once an hour.</string>
+    <string name="setting_advanced">Zaawansowane</string>
+    <string name="setting_advanced_desc">Zaawansowane ustawienia do zmiany wydajności i innych parametrów</string>
+    <string name="setting_advanced_warning_desc">Te ustawienia są eksperymentalne i mogą nie działać prawidłowo na Twoim urządzeniu, lub mogą spowodować, że Tap, Tap przestanie działać.</string>
+    <string name="setting_advanced_restart_service">Usługa Auto-restartu</string>
+    <string name="setting_advanced_restart_service_desc">Próbuje automatycznie zrestartować komponent Tap, Tap listener co godzinę</string>
     <string name="setting_advanced_legacy_wake">Legacy Wake Device method</string>
     <string name="setting_advanced_legacy_wake_desc">Use the legacy method of waking the device with the \'Wake Device\' option enabled. This may not work on all devices, but may be more reliable in a few rare cases.</string>
     <string name="setting_advanced_tensor_low_power">Tensor Low Power Mode</string>
@@ -247,33 +247,33 @@
     <string name="settings_advanced_monet_color_picker_desc">Choose the colour from your wallpaper to use throughout Tap, Tap\'s UI</string>
     <string name="setting_advanced_custom_sensitivity">Custom sensitivity</string>
     <string name="setting_advanced_custom_sensitivity_desc">Set a custom sensitivity value for the gesture.\nImportant: Only use this if <b>none</b> of the built in sensitivity values are working for you</string>
-    <string name="bs_advanced_custom_sensitivity">Custom Sensitivity</string>
-    <string name="bs_advanced_custom_sensitivity_hint">Sensitivity</string>
-    <string name="bs_advanced_custom_sensitivity_invalid">Invalid sensitivity</string>
+    <string name="bs_advanced_custom_sensitivity">Niestandardowa czułość</string>
+    <string name="bs_advanced_custom_sensitivity_hint">Czułość</string>
+    <string name="bs_advanced_custom_sensitivity_invalid">Nieprawidłowa wartość czułości</string>
     <string name="bs_advanced_custom_sensitivity_reset">Reset</string>
 
-            <!-- Monet Color Picker -->
-    <string name="color_picker_unavailable">Wallpaper Color Picker unavailable for the currently selected wallpaper</string>
+    <!-- Monet Color Picker -->
+    <string name="color_picker_unavailable">Selektor koloru tapety nie jest dostępny dla aktualnie wybranej tapety</string>
 
-            <!-- Settings > More -->
-    <string name="settings_backup_restore">Backup &amp; Restore</string>
-    <string name="settings_backup_restore_desc">Backup your settings to your device or the cloud</string>
-    <string name="settings_backup_restore_backup">Backup</string>
-    <string name="settings_backup_restore_backup_desc">Backup your settings to your device or the cloud</string>
-    <string name="settings_backup_restore_restore">Restore</string>
-    <string name="settings_backup_restore_restore_desc">Restore your settings from your device or the cloud</string>
-    <string name="setting_internet">Allow Internet Access</string>
-    <string name="setting_internet_desc">This will only be used to retrieve device specifications and to check for updates</string>
-    <string name="setting_crash_reporting">Crash Notifications</string>
-    <string name="setting_crash_reporting_desc">Show a notification if Tap, Tap crashes, allowing saving of a log to report on GitHub or XDA. This option <b>does not</b> automatically send crash data to a server.</string>
-    <string name="battery_and_optimisation">Battery &amp; Optimisation</string>
-    <string name="battery_and_optimisation_desc">Info on why Tap, Tap uses battery, and why it may be killed by your device when run in the background (and how to fix that)</string>
-    <string name="xda_thread">XDA Thread</string>
+    <!-- Settings > More -->
+    <string name="settings_backup_restore">Kopia i Przywracanie</string>
+    <string name="settings_backup_restore_desc">Utwórz kopię zapasową swoich ustawień na urządzeniu lub w chmurze</string>
+    <string name="settings_backup_restore_backup">Kopia zapasowa</string>
+    <string name="settings_backup_restore_backup_desc">Utwórz kopię zapasową swoich ustawień na urządzeniu lub w chmurze</string>
+    <string name="settings_backup_restore_restore">Przywróć</string>
+    <string name="settings_backup_restore_restore_desc">Przywróć swoje ustawienia z kopii zapisanej na urządzeniu lub w chmurze</string>
+    <string name="setting_internet">Zezwól na dostęp do internetu</string>
+    <string name="setting_internet_desc">Tap, Tap połączy się z internetem jedynie aby pobrać specyfikację urządzeń oraz sprawdzić dostępność aktualizacji</string>
+    <string name="setting_crash_reporting">Powiadominie Awarii</string>
+    <string name="setting_crash_reporting_desc">Pokaż powiadomienie jeżeli Tap, Tap ulegnie awarii, które umożliwi zapisanie loga, aby zgłosić problem na stronie GitHub lub XDA. Ta opcja nie wysyła automatycznie loga na serwer.</string>
+    <string name="battery_and_optimisation">Bateria i Optymalizacja</string>
+    <string name="battery_and_optimisation_desc">Informacja o tym dlaczego Tap, Tap zużywa baterię oraz dlaczego może zostać zatrzymany przez system Android, gdy działa w tle, a także jak temu zaradzić</string>
+    <string name="xda_thread">Temat XDA</string>
     <string name="github">GitHub</string>
-    <string name="libraries">Third party libraries</string>
-    <string name="donate">Donate</string>
-    <string name="twitter">Follow me on Twitter</string>
-    <string name="about_version">Version %1s\nCreated by Kieron Quinn</string>
+    <string name="libraries">Zewnętrzne biblioteki</string>
+    <string name="donate">Wesprzyj</string>
+    <string name="twitter">Sledź mnie na X</string>
+    <string name="about_version">Wersja %1s\nUtworzona przez Kieron Quinn</string>
 
             <!-- Settings > More > Battery Optimisation -->
     <string name="settings_battery_header"><![CDATA[Tap, Tap uses sensor data in the background, which can be CPU and battery intensive. On devices with a dedicated ML accelerator (such as those with a Qualcomm Hexagon Tensor Accelerator), you may see a smaller battery impact.<br><a href="https://kieronquinn.co.uk/redirect/TapTap/battery">Tap here for some battery saving tips</a>.]]></string>
@@ -284,13 +284,13 @@
     <string name="settings_battery_oem_info">Your device appears to have some OEM-specific battery optimisations. Tap, Tap is unable to automatically request to disable them, please check your settings to verify they are disabled.</string>
     <string name="settings_battery_oem_button">Open OEM battery settings</string>
 
-            <!-- Settings > More > Backup & Restore > Backup -->
-    <string name="settings_backuprestore_backup_title">Creating backup…</string>
-    <string name="settings_backuprestore_backup_desc">This shouldn\'t take long</string>
-    <string name="settings_backuprestore_backup_done_title">Backup created</string>
-    <string name="settings_backuprestore_backup_done_desc">Saved to %1s</string>
-    <string name="settings_backuprestore_backup_error_title">Error creating backup</string>
-    <string name="settings_backuprestore_backup_error_desc">There was an error saving your backup: %1s</string>
+    <!-- Settings > More > Backup & Restore > Backup -->
+    <string name="settings_backuprestore_backup_title">Tworzenie kopii zapasowej…</string>
+    <string name="settings_backuprestore_backup_desc">To nie powinno tyle trwać</string>
+    <string name="settings_backuprestore_backup_done_title">Utworzono kopię zapasową</string>
+    <string name="settings_backuprestore_backup_done_desc">Zapisano do %1s</string>
+    <string name="settings_backuprestore_backup_error_title">Błąd tworzenia kopii zapasowej</string>
+    <string name="settings_backuprestore_backup_error_desc">Wystąpił błąd zapisu Twojej kopii zapasowej: %1s</string>
 
             <!-- Settings > More > Backup & Restore > Restore -->
     <string name="settings_backuprestore_restore_title">Restoring backup…</string>
@@ -312,29 +312,29 @@
     <string name="settings_backup_restore_restore_item_setup">Setup</string>
     <string name="settings_backup_restore_restore_item_skip">Skip</string>
 
-            <!-- Settings > More > Contributors -->
-    <string name="about_contributors">Contributors</string>
-    <string name="about_contributors_main">Models</string>
+    <!-- Settings > More > Contributors -->
+    <string name="about_contributors">Kontrybutorzy</string>
+    <string name="about_contributors_main">Modele</string>
     <string name="about_contributors_main_content"><![CDATA[\'Columbus\' Model and base code created by Google, from Android 11 Developer Preview 1 and Android 12 (<a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a>)<br>\'RegiStar\' model from Samsung\'s Good Lock RegiStar module]]></string>
-    <string name="about_contributors_community">Community Contributions</string>
+    <string name="about_contributors_community">Kontrybutorzy Wspólnoty</string>
     <string name="about_contributors_community_content"><b>Tasker integration</b>: João Dias\n<b>Music control actions</b>: timfedo\n<b>MD2 UI and Chrome Custom Tabs</b>: Giorgio Cantoni\n<b>Power Dialog action</b>: Adrian Campos\n<b>DND feedback and Sound Profiles action</b>: Ashutosh Singh\n<b>Launch Search action</b>: arkon\n<b>Force Do not Disturb action:</b> Kylian Meulin\n<b>Touch on Screen action:</b> Mauri de Souza Meneguzzo</string>
-    <string name="about_contributors_icons">Icons</string>
+    <string name="about_contributors_icons">Ikony</string>
     <string name="about_contributors_icons_content"><![CDATA[Icons by <b><a href="https://material.io/resources/icons">Material Icons</a></b> (<a href="https://www.apache.org/licenses/LICENSE-2.0.html">Apache Licence 2.0</a>)<br><b><a href="https://github.com/Templarian/MaterialDesign">Material Design Icons</a></b> (<a href="https://github.com/Templarian/MaterialDesign/blob/master/LICENSE">Pictogrammers Free Licence</a>)<br><b><a href="https://www.freepik.com/">Freepik</a></b> (<a href="https://www.flaticon.com/license/pack/197373">Flaticon Licence</a>)<br><b><a href="https://www.flaticon.com/free-icon/smartphone_2628265">Vitaly Gorbachev</a></b> (<a href="https://www.flaticon.com/license/icon/2628265">Flaticon Licence</a>)]]></string>
-    <string name="about_translators">Translators</string>
+    <string name="about_translators">Tłumacze</string>
 
-            <!-- Language headings, add to values.xml too -->
-    <string name="translators_chinese">Chinese (Simplified)</string>
-    <string name="translators_russian">Russian</string>
-    <string name="translators_portuguese_br">Brazilian Portuguese</string>
-    <string name="translators_ukrainian">Ukrainian</string>
-    <string name="translators_italian">Italian</string>
-    <string name="translators_polish">Polish</string>
-    <string name="translators_french">French</string>
-    <string name="translators_spanish">Spanish</string>
-    <string name="translators_vietnamese">Vietnamese</string>
-    <string name="translators_german">German</string>
-    <string name="translators_turkish">Turkish</string>
-    <string name="translators_chinese_traditional">Chinese (Traditional)</string>
+    <!-- Language headings, add to values.xml too -->
+    <string name="translators_chinese">Chiński (Uproszczony)</string>
+    <string name="translators_russian">Rosyjski</string>
+    <string name="translators_portuguese_br">Brazylijski Portugalski</string>
+    <string name="translators_ukrainian">Ukraiński</string>
+    <string name="translators_italian">Włoski</string>
+    <string name="translators_polish">Polski</string>
+    <string name="translators_french">Francuski</string>
+    <string name="translators_spanish">Hiszpański</string>
+    <string name="translators_vietnamese">Wietnamski</string>
+    <string name="translators_german">Niemiecki</string>
+    <string name="translators_turkish">Turecki</string>
+    <string name="translators_chinese_traditional">Chiński (Tradycyjny)</string>
 
             <!-- Actions -->
     <string name="action_launch_camera">Uruchom aparat</string>
