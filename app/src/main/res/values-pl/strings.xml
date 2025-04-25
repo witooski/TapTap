@@ -65,27 +65,27 @@
     <string name="setting_bottom_nav_more">Więcej</string>
     <string name="menu_setup_wizard">Ponowna Konfiguracja</string>
 
-            <!-- Settings > Gesture -->
-    <string name="settings_main_battery"><b>Disable Battery Optimisation</b>\nTo help prevent Tap, Tap from being killed in the background, tap to disable battery optimisation</string>
-    <string name="setting_actions_double">Double Tap Actions</string>
-    <string name="setting_actions_triple">Triple Tap Actions</string>
-    <string name="settings_actions_desc_double">Set the actions to be run when you tap on the back of your device twice</string>
-    <string name="settings_actions_desc_triple">Set the actions to be run when you tap on the back of your device three times</string>
-    <string name="setting_gates">Gates</string>
-    <string name="setting_gates_desc">Set situations when the gesture should not run an action</string>
-    <string name="setting_feedback">Feedback</string>
-    <string name="setting_feedback_desc">Set how the device notifies you when the gesture is run</string>
-    <string name="setting_feedback_vibrate">Vibrate</string>
-    <string name="setting_feedback_vibrate_desc">Vibrate once when the gesture is used and the action is run</string>
-    <string name="setting_feedback_wake">Wake Device</string>
-    <string name="setting_feedback_wake_desc">Wake the device up if the screen is off</string>
-    <string name="slider_sensitivity_very_low">Very low</string>
-    <string name="slider_sensitivity_low">Low</string>
-    <string name="slider_sensitivity_medium">Medium</string>
-    <string name="slider_sensitivity_high">High</string>
-    <string name="slider_sensitivity_very_high">Very high</string>
-    <string name="setting_feedback_override_dnd">Vibrate when do not disturb is enabled</string>
-    <string name="setting_feedback_override_dnd_desc">Ignore the device\'s DND setting and always vibrate when triggered</string>
+    <!-- Settings > Gesture -->
+    <string name="settings_main_battery"><b>Wyłącz optymalizację baterii</b>\nAby uniemożliwić zamykanie Tap, Tap przez system Android, gdy działa ona w tle, wyłącz optymalizację baterii</string>
+    <string name="setting_actions_double">Akcje podwójnego stuknięcia</string>
+    <string name="setting_actions_triple">Akcje potrójnego stuknięcia</string>
+    <string name="settings_actions_desc_double">Ustaw akcje do wykonania, po dwukrotnym stuknięciu w tył swojego urządzenia</string>
+    <string name="settings_actions_desc_triple">Ustaw akcje do wykonania, po trzykrotnym stuknięciu w tył swojego urządzenia</string>
+    <string name="setting_gates">Bramy</string>
+    <string name="setting_gates_desc">Ustaw sytuacje, w których gest nie powinien uruchamiać akcji</string>
+    <string name="setting_feedback">Reakcje</string>
+    <string name="setting_feedback_desc">Ustaw sposób, w jaki urządzenie powiadamia Cię o wykonaniu gestu</string>
+    <string name="setting_feedback_vibrate">Wibracja</string>
+    <string name="setting_feedback_vibrate_desc">Wibruj raz, gdy gest jest używany i akcja jest wykonywana</string>
+    <string name="setting_feedback_wake">Wybudź urządzenie</string>
+    <string name="setting_feedback_wake_desc">Włącz ekran urządzenia, jeśli jest wyłączony</string>
+    <string name="slider_sensitivity_very_low">Bardzo słaba</string>
+    <string name="slider_sensitivity_low">Słaba</string>
+    <string name="slider_sensitivity_medium">Średnia</string>
+    <string name="slider_sensitivity_high">Mocna</string>
+    <string name="slider_sensitivity_very_high">Bardzo mocna</string>
+    <string name="setting_feedback_override_dnd">Wibruj, mimo trybu Nie Przeszkadzać</string>
+    <string name="setting_feedback_override_dnd_desc">Ignoruje tryb Nie Przeszkadzać i zawsze wibruje podczas wykonywania akcji</string>
 
             <!-- Settings > Gesture -> Action -->
     <string name="fab_add_action">Add Action</string>
