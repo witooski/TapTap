@@ -87,47 +87,47 @@
     <string name="setting_feedback_override_dnd">Wibruj, mimo trybu Nie Przeszkadzać</string>
     <string name="setting_feedback_override_dnd_desc">Ignoruje tryb Nie Przeszkadzać i zawsze wibruje podczas wykonywania akcji</string>
 
-            <!-- Settings > Gesture -> Action -->
-    <string name="fab_add_action">Add Action</string>
-    <string name="fab_remove_action">Remove</string>
-    <string name="help_action">Actions are tasks that are run when you tap the back of your device twice. Actions are run in the order of the list - top to bottom, and only if requirements are met.\nTap for more info.</string>
-    <string name="bs_help_action">Actions are tasks that are run when you tap the back of your device twice. Actions are run in the order of the list - top to bottom. If an action is able to run successfully, no further actions will be run. However, if an action is unavailable (eg. if the assistant for a "Launch assistant" action is already running, or if the requirements are not met), the next action below it will be run, and so on until one is run successfully.</string>
-    <string name="bs_help_action_title">What are Actions?</string>
-    <string name="item_action_when_empty">Add requirement…</string>
-    <string name="item_action_when_not_empty_single">%1d requirement</string>
-    <string name="item_action_when_not_empty_other">%1d requirements</string>
-    <string name="item_action_app_uninstalled">Unknown app (%1s)</string>
-    <string name="switch_triple">Enable Triple Tap</string>
-    <string name="settings_actions_loading_actions">Loading Actions…</string>
-    <string name="help_action_triple"><b>Note:</b> When triple tap is enabled, the double tap action may be slower to respond. This is due to the fact that it has to wait to see if a third tap will be performed before running the action.</string>
-    <string name="settings_actions_triple_empty">No Triple Tap Actions set, tap Add Action to add one.</string>
-    <string name="settings_actions_double_empty">No Double Tap Actions set, tap Add Action to add one.</string>
+    <!-- Settings > Gesture -> Action -->
+    <string name="fab_add_action">Dodaj akcję</string>
+    <string name="fab_remove_action">Usuń akcję</string>
+    <string name="help_action">Akcje to zadania wykonywane po dwukrotnym stuknięciu w tył obudowy telefonu. Akcje wykonywane są zgodnie z hierarchią na liście - z góry do dołu, gdy zdefiniowane warunki są spełnione.\nKliknij, aby uzyskać więcej informacji.</string>
+    string name="bs_help_action">Akcje to zadania wykonywane po dwukrotnym stuknięciu w tył obudowy telefonu. Akcje wykonywane są zgodnie z hierarchią na liście - z góry do dołu. Jeżeli akcja może zostać wykonana, pozostałe akcje będą zaniechane. Jeżeli akcja nie może zostać wykonana np. gdy warunki nie zostały spełnione, wtedy Tap, Tap wykona kolejną akcję dostępną na liście i tak aż do momentu, gdy kolejna zdefiniowana akcja zostanie pomyślnie wykonana.</string>
+    <string name="bs_help_action_title">Co to są akcje?</string>
+    <string name="item_action_when_empty">Dodaj warunek…</string>
+    <string name="item_action_when_not_empty_single">%1d warunek</string>
+    <string name="item_action_when_not_empty_other">%1d warunki</string>
+    <string name="item_action_app_uninstalled">Nieznana aplikacja (%1s)</string>
+    <string name="switch_triple">Włącz potrójne stuknięcie</string>
+    <string name="settings_actions_loading_actions">Ładowanie akcji…</string>
+    <string name="help_action_triple"><b>Note:</b> Jeżeli potrójne stuknięcie jest wlączone, akcje podwójnego stuknięcia mogą działać wolniej. Fakt ten związany jest z koniecznością sprawdzenia czy trzecie stuknięcie jest zarejestrowane zanim akcja będzie wykonana.</string>
+    <string name="settings_actions_triple_empty">Brak akcji dla potrójnego stuknięcia, kliknij Dodaj akcję, aby skonfigurować akcję.</string>
+    <string name="settings_actions_double_empty">Brak akcji dla podwójnego stuknięcia, kliknij Dodaj akcję, aby skonfigurować akcję.</string>
 
-            <!-- Settings > Gesture > Action > Requirements -->
-    <string name="action_when_gate_inverted">%1s (Inverted)</string>
-    <string name="settings_when_gates_title">Requirements</string>
-    <string name="settings_actions_when_gates_empty">No Requirements set, tap Add Requirement to add one.</string>
-    <string name="settings_actions_loading_when_gates">Loading Requirements…</string>
-    <string name="fab_add_requirement">Add Requirement</string>
+    <!-- Settings > Gesture > Action > Requirements -->
+    <string name="action_when_gate_inverted">%1s (Odwrócony)</string>
+    <string name="settings_when_gates_title">Warunki</string>
+    <string name="settings_actions_when_gates_empty">Brak zdefiniowanych warunków. Kliknij Dodaj warunek, aby go skonfigurować.</string>
+    <string name="settings_actions_loading_when_gates">Ładowanie warunków…</string>
+    <string name="fab_add_requirement">Dodaj warunek</string>
 
-            <!-- Settings > Gesture > Action > Add -->
-    <string name="add_action_category_launch">Launch</string>
-    <string name="add_action_category_launch_desc">Launch an app, shortcut or app shortcut</string>
-    <string name="add_action_category_utilities">Utilities</string>
-    <string name="add_action_category_utilities_desc">Take a screenshot, toggle the flashlight, open the app drawer or accept/reject a call</string>
-    <string name="add_action_category_button">Buttons</string>
-    <string name="add_action_category_button_desc">Simulate button presses, such as home, back, recents or power</string>
-    <string name="add_action_category_sound">Sound</string>
-    <string name="add_action_category_sound_desc">Control music, change the volume or control alarms</string>
-    <string name="add_action_category_gesture">Gestures</string>
-    <string name="add_action_category_gesture_desc">Simulate swipe actions in up, down left or right directions</string>
-    <string name="add_action_category_accessibility">Accessibility</string>
-    <string name="add_action_category_accessibility_desc">Accessibility specific actions, such as Google Voice Access and showing the Accessibility Button Chooser</string>
-    <string name="add_action_category_advanced">Advanced</string>
-    <string name="add_action_category_advanced_desc">Trigger Tasker tasks and events</string>
-    <string name="settings_actions_add_category_selector_loading">Loading Actions…</string>
-    <string name="settings_actions_add_action_selector_loading">Loading Actions…</string>
-    <string name="settings_actions_add_category_selector_empty">No Actions Found</string>
+    <!-- Settings > Gesture > Action > Add -->
+    <string name="add_action_category_launch">Uruchom</string>
+    <string name="add_action_category_launch_desc">Uruchom aplikację, skrót lub skrót aplikacji</string>
+    <string name="add_action_category_utilities">Narzędzia</string>
+    <string name="add_action_category_utilities_desc">Zrób zrzut ekranu, włącz latarkę, otwórz listę aplikacji, lub odbierz/odrzuć połączenie</string>
+    <string name="add_action_category_button">Przyciski</string>
+    <string name="add_action_category_button_desc">Symuluj naciśnięcie przycisków tj. ekran domowy, wstecz, ostatnie aplikacje, zasilania</string>
+    <string name="add_action_category_sound">Dźwięki</string>
+    <string name="add_action_category_sound_desc">Kontroluj muzykę, zmień poziom głośności lub kontroluj alarm</string>
+    <string name="add_action_category_gesture">Gesty</string>
+    <string name="add_action_category_gesture_desc">Symuluj przeciagnięcie w górę, w dół, lewo lub prawo</string>
+    <string name="add_action_category_accessibility">Dostępność</string>
+    <string name="add_action_category_accessibility_desc">Specjalne akcje związane z dostępnością tj. dostęp do Google Voice</string>
+    <string name="add_action_category_advanced">Zaawansowane</string>
+    <string name="add_action_category_advanced_desc">Uruchom zadania i zdarzenia Tasker</string>
+    <string name="settings_actions_add_category_selector_loading">Ładowanie akcji…</string>
+    <string name="settings_actions_add_action_selector_loading">Ładowanie akcji…</string>
+    <string name="settings_actions_add_category_selector_empty">Nie znaleziono akcji</string>
 
     <!-- Action Chips -->
     <string name="action_chip_shizuku">Shizuku</string>
@@ -143,28 +143,28 @@
     <string name="action_chip_snapchat">Snapchat</string>
     <string name="action_chip_snapchat_desc">Wymaga aplikacji Snapchat</string>
 
-            <!-- Settings > Gesture > Gates -->
-    <string name="fab_add_gate">Dodaj Bramę</string>
-    <string name="help_gate">Bramy to sytuacje, które mogą zablokować Gates are situations that can block the gesture from running any actions. In order for any action to be run, all the enabled gates must be open.\nTap for more info.</string>
-    <string name="bs_help_gate">Gates are situations that can block the gesture from running any actions. In order for any action to be run, all the enabled gates must be open.\nIf a scenario is currently met, for example if the screen is off and the "Display off" gate is enabled, no actions will be run. You can add as many gates as you like, and enable/disable them using the toggles (rather than having to delete and re-add) to make configuration quicker and easier.</string>
-    <string name="bs_help_gate_title">What are Gates?</string>
-    <string name="settings_gates_loading_gates">Loading Gates…</string>
-    <string name="settings_gates_header_native_mode"><b>Native Mode Enabled</b>\nWith Native Mode enabled, Tap, Tap will <b>never</b> work with the display off, regardless of which gates you select.</string>
+    <!-- Settings > Gesture > Gates -->
+    <string name="fab_add_gate">Dodaj bramę</string>
+    <string name="help_gate">Bramy to sytuacje, które mogą zablokować wykonywanie akcji. Aby jakakolwiek akcja mogła zostać wykonana, skonfigurowane bramy muszą być otwarte.\nKliknij, aby dowiedzieć się więcej.</string>
+    <string name="bs_help_gate">Bramy to sytuacje, które mogą zablokować wykonywanie akcji. Aby jakakolwiek akcja mogła zostać wykonana, skonfigurowane bramy muszą być otwarte.\nJeżeli wystąpi dany scenariusz, np ekran jest wyłączony i brama "Ekran wyłączony" jest ustawiona, żadna akcja się nie wykona. Możesz dodać dowolną ilość bram i je włączać lub wyłączać używając przełącznika, zamiast jest usuwać.</string>
+    <string name="bs_help_gate_title">Czym są bramy?</string>
+    <string name="settings_gates_loading_gates">Ładowanie bram…</string>
+    <string name="settings_gates_header_native_mode"><b>Natywny Tryb włączony</b>\nW Trybie Natywnym, Tap, Tap nigdy nie zadziała, gdy ekran jest wyłączony, niezależnie od ustawionych bram.</string>
 
-            <!-- Settings > Gesture > Gates > Add -->
-    <string name="add_gate_category_device">Device</string>
-    <string name="add_gate_category_device_desc">React to device changes such as screen, charging and USB states</string>
-    <string name="add_gate_category_sensors">Sensors</string>
-    <string name="add_gate_category_sensors_desc">React to sensor data, such as when the device is in your pocket, or flat on a table</string>
-    <string name="add_gate_category_audio">Audio</string>
-    <string name="add_gate_category_audio_desc">React to audio-related events, such as being on call or playing music</string>
-    <string name="add_gate_category_events">Apps</string>
-    <string name="add_gate_category_events_desc">React to apps being open, including the keyboard and camera</string>
-    <string name="gate_selector_unavailable">Sorry, this gate is not compatible with your device (%1s).</string>
-    <string name="settings_gates_add_category_selector_loading">Loading Gates…</string>
-    <string name="settings_gates_add_gate_selector_loading">Loading Gates…</string>
-    <string name="settings_gates_add_category_selector_empty">No Gates Found</string>
-    <string name="settings_gates_empty">No Gates set, tap Add Gate to add one.</string>
+    <!-- Settings > Gesture > Gates > Add -->
+    <string name="add_gate_category_device">Urządzenie</string>
+    <string name="add_gate_category_device_desc">Reaguj na zmiany z urządzeniem, np zmiana stanu ekranu, ładowania, USB</string>
+    <string name="add_gate_category_sensors">Czujniki</string>
+    <string name="add_gate_category_sensors_desc">Reaguj na zmiany czujników, np. gdy Twoje urządzenie jest w kieszeni</string>
+    <string name="add_gate_category_audio">Dźwięk</string>
+    <string name="add_gate_category_audio_desc">Reaguj na zdarzenia związane z dźwiękiem, np. gdy otwarzana jest muzyka</string>
+    <string name="add_gate_category_events">Aplikacje</string>
+    <string name="add_gate_category_events_desc">Reaguj, gdy otwierane są aplikacje, wliczając klawiaturę i aparat</string>
+    <string name="gate_selector_unavailable">Niestety ta brama nie jest kompatybilna z Twoim urządzeniem (%1s).</string>
+    <string name="settings_gates_add_category_selector_loading">Ładowanie bram…</string>
+    <string name="settings_gates_add_gate_selector_loading">Ładowanie bram…</string>
+    <string name="settings_gates_add_category_selector_empty">Nie odnaleziono bram</string>
+    <string name="settings_gates_empty">Brak zdefiniowanych bram, kliknij Dodaj bramę aby skonfigurować.</string>
 
             <!-- Settings > Settings -->
     <string name="setting_gesture_model">Rozmiar urządzenia</string>
