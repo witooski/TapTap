@@ -12,12 +12,12 @@
     <string name="landing_button_get_started">Zaczynajmy</string>
     <string name="landing_button_skip_setup">Pomiń Konfigurację</string>
 
-            <!-- Setup > Info -->
+    <!-- Setup > Info -->
     <string name="setup_foss_info_title">Tap, Tap jest darmowy i otwartoźródłowy</string>
-    <string name="setup_foss_info_content"><![CDATA[Tap, Tap is and always will be free, building off open source components. The source code is available for anyone to view and make edits to at the <a href=\"https://kieronquinn.co.uk/redirect/TapTap/github\">GitHub repository</a>. Official free downloads for the app are <b>only</b> available at <a href="https://kieronquinn.co.uk/redirect/TapTap/xda">XDA</a>, the <a href="https://kieronquinn.co.uk/redirect/TapTap/github">GitHub repository</a>, and <a href="https://kieronquinn.co.uk/redirect/TapTap/apkmirror">APKMirror</a>. The official app will always automatically offer to download updates from GitHub, if you have allowed internet access.]]></string>
-    <string name="setup_foss_info_warning">Only install Tap, Tap from one of the official sources linked above. <b>If you downloaded from any other source, it is highly recommended you uninstall it and reinstall from one of the links above</b>. Tap for more info.</string>
+    <string name="setup_foss_info_content"><![CDATA[Tap, Tap jest i zawsze będzie otwartoźródłowy, zbudowany z otwartoźródłowych komponentów. Kod źródłowy jest dostępny dla każdego do wglądu i edycji w repozytorium GitHub dostępnym pod adresem <a href=\"https://kieronquinn.co.uk/redirect/TapTap/github\"></a>. Oficjalna darmowe wersje aplikacji do ściągnięcia dostępne są jedynie na stronie XDA pod adresem <a href="https://kieronquinn.co.uk/redirect/TapTap/xda"></a>, stronie GitHub pod adresem <a href="https://kieronquinn.co.uk/redirect/TapTap/github"></a>, oraz APKMirror <a href="https://kieronquinn.co.uk/redirect/TapTap/apkmirror"></a>. Oficjalna aplikacja oferuje automatyczną aktualizację z repozytorium GitHub, jeżeli nadasz jej uprawienia do Internetu.]]></string>
+    <string name="setup_foss_info_warning">Instaluj aplikację Tap, Tap jedynie z oficjalnych źródeł wymienionych powyżej. <b>Jeżeli zainstalowałeś aplikację z innego źródła, zaleca się abyś ją odinstalował i zainstalował z oficjalnego źródła</b>. Kliknij aby dowiedzieć się więcej.</string>
     <string name="setup_foss_info_bs_title">Uwaga</string>
-    <string name="setup_foss_info_bs_content">Tap, Tap używa Usługi Dostęponości. This gives it access to perform actions on your device automatically, and should not be granted to apps you do not trust. This is why Tap, Tap is open source - so you and everyone else who wants to can look at the code and verify it\'s not doing anything it shouldn\'t be.\n\nHowever, this guarantee  does not apply if you downloaded the APK from a source other than the official locations. If you downloaded from anywhere other than the GitHub repository, XDA or APKMirror, it is highly recommended that you uninstall it immediately and reinstall it from one of the official locations.</string>
+    <string name="setup_foss_info_bs_content">Tap, Tap używa Usługi Dostęponości. Usługa ta zapewnia dostęp do automatycznego wykonywania pewnych akcji na Twoim urządzeniu, dlatego uprawnienia do niej powinny posiadać tylko aplikacje, którym ufasz. Właśnie dlatego aplikacja Tap, Tap jest otwartoźródłowa, aby wszyscy mogli sprawdzić jej kod źródłowy i zweryfikować czy nie robi nic, czego nie powinna.\n\nJednakże, ta reguła nie ma zastosowania do wersji aplikacji ściągniętych z nieznanych źródeł. Jeżeli ściągnąłeś aplikację z innego źródła niż GitHub, XDA, czy APKMirror, zaleca się abyś ją natychmiast odinstalował i zainstalował z oficjalnego źródła.</string>
     <string name="setup_foss_info_content_lower">Jeżeli podoba Ci się Tap, Tap i chcesz wspomóc autora finansowo, użyj linku znajdującego się w dolnej sekcji strony \"More\" po ukończeniu konfiguracji. Niezależnie czy dokonasz wpłaty, czy nie, Twoje wsparcie poprzez korzystanie z aplikacji będzie bardzo cenne. Dziękuję!</string>
     <string name="setup_info_next">Dalej</string>
 
@@ -166,36 +166,36 @@
     <string name="settings_gates_add_category_selector_empty">Nie odnaleziono bram</string>
     <string name="settings_gates_empty">Brak zdefiniowanych bram, kliknij Dodaj bramę aby skonfigurować.</string>
 
-            <!-- Settings > Settings -->
+    <!-- Settings > Settings -->
     <string name="setting_gesture_model">Rozmiar urządzenia</string>
     <string name="setting_gesture_model_desc">Dostosuj rozmiar urządzenia podczas wyboru gestów.</string>
-    <string name="setting_gesture_model_desc_not_available">Ta opcja nie jest dostępna, gdy Low Power Mode jest włączone.</string>
-    <string name="setting_gesture_model_desc_not_available_native">Ta opcja nie jest dostępna, gdy Native Mode jest włączone.</string>
-    <string name="setting_low_power_mode">Low Power Mode</string>
-    <string name="setting_low_power_mode_desc">Run the gesture detection on the low-power Context Hub, rather than using the regular CPU to save battery</string>
-    <string name="setting_low_power_mode_desc_unavailable">Low Power Mode is not available while Native Mode is enabled.</string>
+    <string name="setting_gesture_model_desc_not_available">Ta opcja nie jest dostępna, gdy Tryb Niskiej Energii jest włączony.</string>
+    <string name="setting_gesture_model_desc_not_available_native">Ta opcja nie jest dostępna, gdy Tryb Natywny jest włączony.</string>
+    <string name="setting_low_power_mode">Tryb Niskiej Energii</string>
+    <string name="setting_low_power_mode_desc">Wykrywaj gesty używając nisko-napięciowego Hubu kontekstowego, zamiast korzystać ze standardowego procesora, aby ograniczyć zużycie baterii</string>
+    <string name="setting_low_power_mode_desc_unavailable">Tryb Niskiej Energii nie jest dostępny, gdy Tryb Natywny jest włączony.</string>
     <string name="setting_gesture_sensitivity">Czułość</string>
-    <string name="setting_gesture_sensitivity_desc">Change the sensitivity of the gesture by adjusting how much force is filtered out as \'noise\'. A lower sensitivity means the gesture will be harder to do on most devices, whereas a higher sensitivity is more prone to false detection.</string>
-    <string name="setting_gesture_sensitivity_desc_disabled">A custom sensitivity value is set in the Advanced Settings, reset it to use this option.</string>
+    <string name="setting_gesture_sensitivity_desc">Zmień ustawienia czułości gestów poprzez dostosowanie ilości siły jaka jest traktowana jako szum. Mała czułość oznacza, że trudniej będzie wykonać gest na większości urządzeń, natomiast duża może powodować przypadkowe uruchamianie akcji.</string>
+    <string name="setting_gesture_sensitivity_desc_disabled">Niestandardowa czułość jest zdefiniowana w ustawieniach zaawansowanych. Zresetuj to ustawienie, aby korzystać z tej opcji.</string>
     <string name="setting_gesture_sensitivity_chre">Zmniejsz czułość</string>
     <string name="setting_gesture_sensitivity_chre_desc">Zmniejsz czułość gestów Tap, Tap, aby uczynić je trudniejszymi do wykonania.</string>
 
-            <!-- Settings > Settings > Low Power Mode -->
-    <string name="settings_low_power_mode_enable">Enable Low Power Mode</string>
-    <string name="setting_low_power_mode_content">Low Power Mode uses the device\'s \"Context Hub\", which allows for running \"nanoapps\" on the low-power CPU. For this to work, there must be the Columbus nanoapp compiled for your device installed, which has to be done by the OEM. Tap, Tap is then able to use this app, in the same way that the system Quick Tap feature does, to detect the gesture in a significantly more power efficient way.\n\n<b>Shizuku (or alternatively sui) is also required for this option, as it requires system permissions not available to user apps.\nOn Android 13 or above, Sui is required due to platform changes beyond Tap, Tap\'s control.</b>\n\n<b>Note: You may need to reboot after enabling this option for the first time for it to take effect.</b></string>
-    <string name="settings_low_power_mode_error_shizuku">Shizuku or sui is required for this option to work. Shizuku will work without root, but if your device is rooted, it will be able to start automatically on boot. If you are using the <b>sui</b> Magisk module, tap below to request permission.</string>
-    <string name="settings_low_power_mode_error_button_shizuku">What\'s Shizuku / Sui?</string>
-    <string name="settings_low_power_mode_error_button_sui">Request <b>sui</b> permission</string>
-    <string name="settings_low_power_mode_error_not_compatible">Sorry, this option is not compatible with your device\n<b>Note:</b> If you are running Android 13 or above, you <b>must</b> be rooted and use Sui to use this option, Shizuku is no longer acceptable due to platform changes outside of Tap, Tap\'s control.</string>
-    <string name="settings_low_power_mode_error_toast">Shizuku is not running, start it to enable Low Power Mode</string>
+    <!-- Settings > Settings > Low Power Mode -->
+    <string name="settings_low_power_mode_enable">Włącz Tryb Niskiej Energii</string>
+    <string name="setting_low_power_mode_content">Tryb Niskiej Energii korzysta z Hubu kontekstowego urządzenia, który umożliwia nanoaplikcjom działanie na niesko-poziomowym CPI. Aby funkcja ta mogła działać, nanoaplikacja Columbus musi być skompilowana i zainstalowana na urządzeniu przez dostawcę OEM. W takim przypadku Tap, Tap może korzystać z tej aplikacji w ten sam sposób co systemowa funkcja Quick Tap do wykrywania gestów, jednocześnie zużywając mniej energii.\n\n<b>Shizuku lub też alternaatywnie Sui również są wymagane do działania tej opcji, jako że wymaga ona praw do systemu, do których zwykłe aplikacje nie mają dostępu.\nOn </b>\n\n<b>Uwaga: Zrestartuj urządzenie po włączeniu tej opcji.</b></string>
+    <string name="settings_low_power_mode_error_shizuku">Shizuku lub Sui są wymagane do działania tej funkcji. Jeżeli używasz modułu Magisk Sui, kliknij poniżej aby nadać wymagane uprawnienia.</string>
+    <string name="settings_low_power_mode_error_button_shizuku">Co to jest Shizuku / Sui?</string>
+    <string name="settings_low_power_mode_error_button_sui">Przyznaj uprawienia <b>sui</b></string>
+    <string name="settings_low_power_mode_error_not_compatible">Niestety ta opcja nie jest kompatybilna z Twoim urządzeniem\n<b>Uwaga:</b> Jeżeli Twoje urządzenie używa Android 13 lub jego wyższą wersję, musisz posiadać uprawnienia root, aby korzystać z Sui. Shizuku nie jest już wspierane w związku ze zmianami w architekturze Android i jest to poza kontrolą Tap, Tap.</string>
+    <string name="settings_low_power_mode_error_toast">Shizuku nie działa. Uruchom go, aby włączyć tryb Niskiej Energii</string>
 
             <!-- Settings > Settings > Native Mode -->
-    <string name="settings_native_mode">Native Mode</string>
+    <string name="settings_native_mode">Tryb Natywny</string>
     <string name="settings_native_mode_desc">Native Mode uses the system Quick Tap feature to run with low battery usage, using Shizuku or Sui, with some restrictions.</string>
-    <string name="settings_native_mode_desc_unavailable">Native Mode is unavailable when Low Power Mode is enabled.</string>
-    <string name="settings_native_mode_enable">Enable Native Mode</string>
+    <string name="settings_native_mode_desc_unavailable">Tryb Natywny nie jest dostępny, gdy aktywny jest tryb Niskiej Energii.</string>
+    <string name="settings_native_mode_enable">Włącz Tryb Natywny</string>
     <string name="settings_native_mode_launch_toast">Enable Quick Tap in System > Gestures &amp; set Tap, Tap as the Open app Action</string>
-    <string name="settings_native_mode_launch_toast_disable">Disable Quick Tap in System > Gestures</string>
+    <string name="settings_native_mode_launch_toast_disable">Wyłącz funkcje Quick Tap w ustawieniach systemu (System > Gesty)</string>
     <string name="setting_native_mode_content">Native Mode uses the built-in Quick Tap feature on Pixels to run Tap, Tap. This has the benefit of having almost as low battery consumption as Low Power Mode, but does have two downsides:\n• <b>Tap, Tap will not work when the screen is off</b>\n• <b>Triple Tap may be less reliable</b>\n\nTo enable Native Mode, you must enable Quick Tap in the system settings, and set the action to launch Tap, Tap.</string>
 
             <!-- Settings > Settings > Model Picker -->
